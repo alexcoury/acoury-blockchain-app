@@ -29,7 +29,9 @@ asset SampleAsset identified by assetId {
   --> SampleParticipant owner
   o String value
 }
-
+asset AlexsAsset extends SampleAsset {
+  
+}
 transaction SampleTransaction {
   --> SampleAsset asset
   o String newValue
